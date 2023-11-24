@@ -13,9 +13,22 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        style
+        style()
+        layout()
     }
 
 
+}
+extension LoginViewController {
+    
+    private func style(){
+        
+    }
+    private func layout(){
+        view.addSubview(loginView)
+        NSLayoutConstraint.activate([
+        
+        ])
+    }
 }
 
