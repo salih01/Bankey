@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor    = .systemBackground
         window?.rootViewController = OnboardingContainerViewController()
         return true
+        
     }
 }
 
